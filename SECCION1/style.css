@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+body {
+  font-family: 'Mulish', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #333;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background: rgba(0,0,0,0.2);
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  margin: 0;
+}
+
+
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.section h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.curiosidades h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.dato {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.dato img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: cover;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.beige-box {
+  background-color: #f5f5dc;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+.beige-box h3 {
+  margin-top: 0;
+}
+
+.back-button-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #2563eb;
+}
+
+.main-footer {
+  background-color: #f5f5dc;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.main-footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
